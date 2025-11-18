@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.large {
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+
+.logo {
+    width: 100px
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/haute-couture-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    
+}
+
+.links {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family: 'Poppins.zip';
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.accueil {
+    color: #AB864C;
+    font-family: 'Poppins.zip';
+}
+
+.black1 {
+    color: black;
+}
+
+.main {
+    border: #AB864C;
+    background-color: white;
+    opacity: 80%;
+    margin: 15px 100px 15px 100px;
+    font-family: 'Kaisei_Decol.zip';
+}
+
+.delicieux {
+    border: solid 1px black;
+    padding: 10px 20px 10px 30px;
+    font-family: 'Poppins.zip';
+}
+
+.signature {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #AB864C;
+    color: white;
+}
+
+.sign-titre {
+    text-align: center;
+    font-family: 'Kaisei_Decol.zip';
+}
+
+.plat {
+    width: 300px;
+}
+
+button {
+    background-color: #AB864C;
+    color: white;
+    border: white;
+    padding: 12px 6px 12px 6px;
+    font-family: 'Poppins.zip';
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+}
+
+.quote-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+hr {
+    color: black;
+}
+
+.contacte-titre {
+    font-family: 'Kaisei_Decol.zip';
+}
+
+.contacte-description {
+    font-family: 'Poppins.zip';
+}
+
+.contacte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.poche {
+    width: 250px
+}
+
+.gateau-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.gateau-description {
+    font-family: 'Poppins.zip';
+}
+
+.gateau-titre {
+    font-family: 'Kaisei_Decol.zip';
+}
+
+.gateau {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.histoire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+
+.histoire-titre {
+    font-family: 'Kaisei_Decol.zip';
+}
+
+.histoire-description {
+    font-family: 'Poppins.zip';
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-titre {
+    font-family: 'Poppins.zip';
+}
+
+.map-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #AB864C;
+    color: white;
+}
+
+.map-head {
+    font-family: 'Kaisei_Decol.zip';
+}
+
+iframe {
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+address {
+    font-family: 'Poppins.zip';
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 1px #AB864C;
+    font-family: 'Poppins.zip';
+}
+
+.icon {
+    width: 10px;
+}
